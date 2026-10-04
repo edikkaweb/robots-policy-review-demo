@@ -1,0 +1,318 @@
+{
+  "verified_at": "2026-10-04T08:45:00.801174+00:00",
+  "scope": "Edikka FR/EN editorial integration; demo engine unchanged",
+  "pages": {
+    "at": "2026-10-04T08:42:28.585Z",
+    "base": "https://www.edikka.com",
+    "browser": "154.0.8037.93",
+    "pages": [
+      {
+        "route": "/bibliotheque",
+        "lang": "fr",
+        "links": [
+          {
+            "href": "https://edikkaweb.github.io/robots-policy-review-demo/",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": " Explorer la démonstration — Revue robots.txt↗ ",
+            "destination": "robots_demo"
+          },
+          {
+            "href": "https://github.com/edikkaweb/robots-policy-review-demo",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": " Code sur GitHub — Revue robots.txt↗ ",
+            "destination": "robots_code"
+          },
+          {
+            "href": "https://github.com/edikkaweb/robots-policy-review-demo/blob/main/METHOD.md",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": " Protocole d’essai — Revue robots.txt↗ ",
+            "destination": "robots_run"
+          }
+        ],
+        "canonical": "https://www.edikka.com/bibliotheque",
+        "alternates": [
+          {
+            "lang": "fr",
+            "href": "https://www.edikka.com/bibliotheque"
+          },
+          {
+            "lang": "en",
+            "href": "https://www.edikka.com/en/library"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://www.edikka.com/bibliotheque"
+          }
+        ],
+        "schemaParsed": 1,
+        "axe": {
+          "violations": 0,
+          "incomplete": []
+        },
+        "responsive": [
+          {
+            "width": 390,
+            "document": 390
+          },
+          {
+            "width": 320,
+            "document": 320
+          }
+        ],
+        "keyboardFocus": true
+      },
+      {
+        "route": "/en/library",
+        "lang": "en",
+        "links": [
+          {
+            "href": "https://edikkaweb.github.io/robots-policy-review-demo/",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": " Explore the demonstration — robots.txt review↗ ",
+            "destination": "robots_demo"
+          },
+          {
+            "href": "https://github.com/edikkaweb/robots-policy-review-demo",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": " Code on GitHub — robots.txt review↗ ",
+            "destination": "robots_code"
+          },
+          {
+            "href": "https://github.com/edikkaweb/robots-policy-review-demo/blob/main/METHOD.md",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": " Test protocol — robots.txt review↗ ",
+            "destination": "robots_run"
+          }
+        ],
+        "canonical": "https://www.edikka.com/en/library",
+        "alternates": [
+          {
+            "lang": "fr",
+            "href": "https://www.edikka.com/bibliotheque"
+          },
+          {
+            "lang": "en",
+            "href": "https://www.edikka.com/en/library"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://www.edikka.com/bibliotheque"
+          }
+        ],
+        "schemaParsed": 1,
+        "axe": {
+          "violations": 0,
+          "incomplete": []
+        },
+        "responsive": [
+          {
+            "width": 390,
+            "document": 390
+          },
+          {
+            "width": 320,
+            "document": 320
+          }
+        ],
+        "keyboardFocus": true
+      },
+      {
+        "route": "/insights/seo/bloquer-robots-ia",
+        "lang": "fr",
+        "links": [
+          {
+            "href": "https://edikkaweb.github.io/robots-policy-review-demo/",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": "Essayer la revue robots.txt ↗",
+            "destination": "robots_demo"
+          },
+          {
+            "href": "https://github.com/edikkaweb/robots-policy-review-demo",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": "Code et commande locale ↗",
+            "destination": "robots_code"
+          },
+          {
+            "href": "https://github.com/edikkaweb/robots-policy-review-demo/blob/main/METHOD.md",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": "Lire le protocole ↗",
+            "destination": "robots_run"
+          }
+        ],
+        "canonical": "https://www.edikka.com/insights/seo/bloquer-robots-ia",
+        "alternates": [
+          {
+            "lang": "fr",
+            "href": "https://www.edikka.com/insights/seo/bloquer-robots-ia"
+          },
+          {
+            "lang": "en",
+            "href": "https://www.edikka.com/en/insights/seo/block-ai-crawlers"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://www.edikka.com/insights/seo/bloquer-robots-ia"
+          }
+        ],
+        "schemaParsed": 1,
+        "axe": {
+          "violations": 0,
+          "incomplete": []
+        },
+        "responsive": [
+          {
+            "width": 390,
+            "document": 390
+          },
+          {
+            "width": 320,
+            "document": 320
+          }
+        ],
+        "keyboardFocus": true
+      },
+      {
+        "route": "/en/insights/seo/block-ai-crawlers",
+        "lang": "en",
+        "links": [
+          {
+            "href": "https://edikkaweb.github.io/robots-policy-review-demo/",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": "Try the review · French interface ↗",
+            "destination": "robots_demo"
+          },
+          {
+            "href": "https://github.com/edikkaweb/robots-policy-review-demo",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": "Code and local CLI ↗",
+            "destination": "robots_code"
+          },
+          {
+            "href": "https://github.com/edikkaweb/robots-policy-review-demo/blob/main/METHOD.md",
+            "target": "_blank",
+            "rel": "external noopener",
+            "lang": "fr",
+            "text": "Read the method ↗",
+            "destination": "robots_run"
+          }
+        ],
+        "canonical": "https://www.edikka.com/en/insights/seo/block-ai-crawlers",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://www.edikka.com/en/insights/seo/block-ai-crawlers"
+          },
+          {
+            "lang": "fr",
+            "href": "https://www.edikka.com/insights/seo/bloquer-robots-ia"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://www.edikka.com/insights/seo/bloquer-robots-ia"
+          }
+        ],
+        "schemaParsed": 1,
+        "axe": {
+          "violations": 0,
+          "incomplete": []
+        },
+        "responsive": [
+          {
+            "width": 390,
+            "document": 390
+          },
+          {
+            "width": 320,
+            "document": 320
+          }
+        ],
+        "keyboardFocus": true
+      }
+    ],
+    "noJS": true
+  },
+  "navigation": {
+    "at": "2026-10-04T08:42:35.271Z",
+    "base": "https://www.edikka.com",
+    "modes": [
+      {
+        "route": "/bibliotheque",
+        "javaScriptEnabled": false,
+        "visible": true
+      },
+      {
+        "route": "/en/library",
+        "javaScriptEnabled": false,
+        "visible": true
+      },
+      {
+        "route": "/insights/seo/bloquer-robots-ia",
+        "javaScriptEnabled": false,
+        "visible": true
+      },
+      {
+        "route": "/en/insights/seo/block-ai-crawlers",
+        "javaScriptEnabled": false,
+        "visible": true
+      },
+      {
+        "route": "/bibliotheque",
+        "reducedMotion": "reduce",
+        "visible": true
+      },
+      {
+        "route": "/en/library",
+        "reducedMotion": "reduce",
+        "visible": true
+      },
+      {
+        "route": "/insights/seo/bloquer-robots-ia",
+        "reducedMotion": "reduce",
+        "visible": true
+      },
+      {
+        "route": "/en/insights/seo/block-ai-crawlers",
+        "reducedMotion": "reduce",
+        "visible": true
+      }
+    ],
+    "newTab": {
+      "url": "https://edikkaweb.github.io/robots-policy-review-demo/",
+      "opener": null
+    },
+    "returnToEdikka": true
+  },
+  "hub_workflow": {
+    "id": 37189807304,
+    "head_sha": "9f1629b6629fab27a37636f6b22ff14acbb4d609",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/edikkaweb/edikkaweb.github.io/actions/runs/37189807304"
+  },
+  "limits": [
+    "Chrome integration checks; no Safari/VoiceOver verification",
+    "Axe limited to the newly added blocks; no global accessibility certification"
+  ]
+}

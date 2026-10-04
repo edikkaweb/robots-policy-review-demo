@@ -8,6 +8,12 @@ Un instrument Edikka : comparez deux fichiers, déclarez des attentes, expliquez
 
 Le cas principal montre comment ajouter `User-agent: GPTBot` pour interdire `/blog/` peut rendre `/documents/` autorisé dans le modèle : le groupe spécifique ne cumule pas automatiquement les restrictions du groupe `*`. La correction répond à l’intention déclarée, sans préconiser une politique universelle.
 
+## Retrouver le contexte Edikka
+
+[Article « Bloquer les robots IA »](https://www.edikka.com/insights/seo/bloquer-robots-ia#robots-policy-review-demo) · [Bibliothèque des instruments](https://www.edikka.com/bibliotheque#github-lab) · [Les neuf expériences du laboratoire](https://edikkaweb.github.io/)
+
+English: [reference article](https://www.edikka.com/en/insights/seo/block-ai-crawlers#robots-policy-review-demo) · [open library](https://www.edikka.com/en/library#github-lab). The V1 tool and its documentation are in French. [Integration details](INTEGRATION.md).
+
 ## Utiliser
 
 Node **22.12 minimum** (CI : Node 22), npm, aucune clé API.
