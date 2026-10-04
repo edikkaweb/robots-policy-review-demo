@@ -1,0 +1,61 @@
+{
+  "observedAt": "2026-10-04T07:26:03+00:00",
+  "workflow": {
+    "id": 37185578022,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "129fbdd0e3cda0ad5b2933d5b368696bde2f51a3",
+    "url": "https://github.com/edikkaweb/robots-policy-review-demo/actions/runs/37185578022"
+  },
+  "assets": [
+    {
+      "url": "https://edikkaweb.github.io/robots-policy-review-demo/index.html",
+      "status": 200,
+      "bytes": 29941,
+      "sha256": "a0d305305fa044f8b2979610b4cc4bf5e1b84a4350ec67ec4f81e6c185438422",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "https://edikkaweb.github.io/robots-policy-review-demo/assets/app.js",
+      "status": 200,
+      "bytes": 53711,
+      "sha256": "d159c57a81cc922e22ad897ccf399561eed56423aee6c9e73a92fbbb14ffd9e7",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "https://edikkaweb.github.io/robots-policy-review-demo/assets/style.css",
+      "status": 200,
+      "bytes": 12808,
+      "sha256": "a01851e570ad55e220858896542e225fcff0a75df47d0ac85fdd0fe975d35f07",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "https://edikkaweb.github.io/robots-policy-review-demo/methode.html",
+      "status": 200,
+      "bytes": 8713,
+      "sha256": "0f66b35c037496645627f6f0a81a1af333846436f6f2eeea0be5cddbb6fc161e",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "https://edikkaweb.github.io/robots-policy-review-demo/catalogue.html",
+      "status": 200,
+      "bytes": 12476,
+      "sha256": "b1675ddb638af8ab1b233163cabf819c9cfacf9e12b100eb5fd68c0dfd55aa56",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "https://edikkaweb.github.io/robots-policy-review-demo/examples/expectations.json",
+      "status": 200,
+      "bytes": 1165,
+      "sha256": "6cf3be5cccc2b81abbed8587967ea36a7f223ab1ce844df2fc9ee94a3654fab4",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "https://edikkaweb.github.io/robots-policy-review-demo/schemas/report.schema.json",
+      "status": 200,
+      "bytes": 25324,
+      "sha256": "3cea0423778d734a2fdba9cfcf27b8c7bbf5978bea223515c5dd9bd88f394af0",
+      "matchesLocalBuild": true
+    }
+  ]
+}

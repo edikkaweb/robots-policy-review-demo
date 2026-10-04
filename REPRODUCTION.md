@@ -44,3 +44,5 @@ Les captures d’écran sont écrites localement dans `test-results/`. Les preuv
 Le workflow construit et teste, compile l’oracle puis exige son succès, rejoue les tests navigateur et enfin téléverse **dist uniquement**. Le job de déploiement dépend du job de vérification et ne s’exécute que sur la branche principale. Pages doit être configuré avec la source GitHub Actions. Aucun workflow ne committe de rapport utilisateur.
 
 Un oracle absent échoue avec le code 2. Il n’est jamais remplacé par le moteur TypeScript pour fabriquer une preuve verte.
+
+Le premier workflow public a réussi en 2 min 2 s. Il signale deux avertissements de migration interne des actions Node 20 vers Node 24, et deux notices sur le futur changement du label Ubuntu. Les commandes du projet ont bien utilisé Node 22 ; ces annotations n’ont pas empêché les contrôles ou la publication. Elles restent consignées dans la recette.

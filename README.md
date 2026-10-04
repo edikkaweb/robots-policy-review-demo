@@ -2,6 +2,8 @@
 
 **Vous modifiez votre robots.txt. Quelles URL changent de règle ?**
 
+[**Ouvrir la démonstration publique**](https://edikkaweb.github.io/robots-policy-review-demo/) · [Méthode](https://edikkaweb.github.io/robots-policy-review-demo/methode.html) · [Profils sourcés](https://edikkaweb.github.io/robots-policy-review-demo/catalogue.html)
+
 Un instrument Edikka : comparez deux fichiers, déclarez des attentes, expliquez chaque décision et rejouez les mêmes contrôles sur une capture de livraison. L’interface est française. Les jeux publics sont synthétiques.
 
 Le cas principal montre comment ajouter `User-agent: GPTBot` pour interdire `/blog/` peut rendre `/documents/` autorisé dans le modèle : le groupe spécifique ne cumule pas automatiquement les restrictions du groupe `*`. La correction répond à l’intention déclarée, sans préconiser une politique universelle.
@@ -59,6 +61,8 @@ npm run preview
 npx playwright install chromium firefox
 npm run test:browser
 ```
+
+La V1 est publiée sur GitHub Pages. [Le workflow de publication](https://github.com/edikkaweb/robots-policy-review-demo/actions/runs/37185578022) a réussi ; les 34 contrôles navigateur ont aussi été rejoués sur le domaine public. Les empreintes des fichiers servis correspondent au build local validé ([preuve](proofs/production.json)).
 
 Voir [la procédure de reproduction](REPRODUCTION.md), [le rapport réel de concordance](proofs/oracle.json), [le corpus exécuté](proofs/oracle-corpus.json), [la mesure de performance](proofs/performance.json) et [la recette navigateur](proofs/browser.json). Un accord sur un corpus fini n’est ni une preuve universelle ni une certification Google.
 
