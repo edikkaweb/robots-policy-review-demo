@@ -1,0 +1,1 @@
+{"reference":{"repository":"https://github.com/google/robotstxt","commit":"22b355ff855419e6a3ff8ff09c0ad7fdb17116f9","files":["robots.cc","robots.h","LICENSE"],"modified":false,"license":"Apache-2.0"},"abseil":{"repository":"https://github.com/abseil/abseil-cpp","commit":"d9e4955c65cd4367dd6bf46f4ccb8cd3d100540b","tag":"20250127.1","license":"Apache-2.0"}}

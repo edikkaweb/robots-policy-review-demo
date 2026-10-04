@@ -1,0 +1,28 @@
+{
+  "name": "robots-policy-review-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Revue robots.txt — intention, règle et livraison vérifiables",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "tsc --noEmit",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "test:oracle": "node scripts/oracle.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "review": "node build/cli.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "@types/node": "22.15.30",
+    "ajv": "8.20.0",
+    "esbuild": "0.25.12",
+    "playwright": "1.63.0",
+    "typescript": "6.0.3"
+  }
+}

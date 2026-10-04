@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "origin": "https://example.com",
+  "cases": [
+    {
+      "id": "crawl",
+      "profile": "Googlebot",
+      "dimension": "crawl",
+      "url": "/article",
+      "expected": "allow",
+      "reason": "Maintenir l’exploration Search."
+    },
+    {
+      "id": "usage",
+      "profile": "Google-Extended",
+      "dimension": "usage",
+      "url": "/article",
+      "expected": "disallow",
+      "reason": "Refuser les usages Gemini couverts par ce jeton."
+    }
+  ]
+}

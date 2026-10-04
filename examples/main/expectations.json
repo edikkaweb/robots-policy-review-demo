@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "origin": "https://example.com",
+  "cases": [
+    {
+      "id": "documents",
+      "profile": "GPTBot",
+      "dimension": "crawl",
+      "url": "/documents/guide.pdf",
+      "expected": "disallow",
+      "reason": "Conserver l’exclusion des documents."
+    },
+    {
+      "id": "blog",
+      "profile": "GPTBot",
+      "dimension": "crawl",
+      "url": "/blog/article",
+      "expected": "disallow",
+      "reason": "Ajouter l’exclusion du blog pour GPTBot."
+    },
+    {
+      "id": "search-blog",
+      "profile": "OAI-SearchBot",
+      "dimension": "crawl",
+      "url": "/blog/article",
+      "expected": "allow",
+      "reason": "Conserver la possibilité de recherche OpenAI."
+    },
+    {
+      "id": "search-docs",
+      "profile": "OAI-SearchBot",
+      "dimension": "crawl",
+      "url": "/documents/guide.pdf",
+      "expected": "disallow",
+      "reason": "Conserver les documents hors exploration déclarée."
+    },
+    {
+      "id": "public",
+      "profile": "GPTBot",
+      "dimension": "crawl",
+      "url": "/a-propos",
+      "expected": "allow",
+      "reason": "Laisser la page publique autorisée."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "synthetic": true,
+  "capturedAt": "2026-10-04T00:00:00Z",
+  "tool": "Edikka-Robots-Review/1.0.0",
+  "origin": "https://example.com",
+  "requestedURL": "https://example.com/robots.txt",
+  "redirects": [],
+  "finalURL": "https://example.com/robots.txt",
+  "status": 200,
+  "requestCount": 0,
+  "userAgent": "Edikka-Robots-Review/1.0.0",
+  "headers": {
+    "content-type": "text/plain; charset=utf-8"
+  },
+  "bodyBase64": "VXNlci1hZ2VudDogKgpEaXNhbGxvdzogL2RvY3VtZW50cy8KClVzZXItYWdlbnQ6IEdQVEJvdApEaXNhbGxvdzogL2Jsb2cvCg==",
+  "bytes": 73,
+  "sha256": "cc544121c2ba7027e8143e071f770517df35e46ac4dfdaafc7c685c4c5fbbea7",
+  "complete": true,
+  "truncated": false,
+  "encoding": "utf-8",
+  "diagnostics": []
+}

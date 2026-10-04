@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "origin": "https://example.com",
+  "cases": [
+    {
+      "id": "image",
+      "profile": "Googlebot-Image",
+      "dimension": "crawl",
+      "url": "/images/photo.jpg",
+      "expected": "allow",
+      "reason": "Autoriser l’exploration Images avec un groupe dédié."
+    }
+  ]
+}

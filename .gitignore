@@ -1,0 +1,10 @@
+node_modules/
+build/
+dist/
+.cache/
+reports/
+test-results/
+*.local.*
+.DS_Store
+
+src/worker.generated.ts

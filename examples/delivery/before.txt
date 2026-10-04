@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /documents/
+
+User-agent: GPTBot
+Disallow: /documents/
+Disallow: /blog/

@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Edikka robots review capture v1",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "synthetic": {
+      "type": "boolean"
+    },
+    "capturedAt": {
+      "type": "string"
+    },
+    "tool": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "requestedURL": {
+      "type": "string"
+    },
+    "redirects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "status": {
+            "type": "integer"
+          },
+          "location": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "url",
+          "status",
+          "location"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 5
+    },
+    "finalURL": {
+      "type": "string"
+    },
+    "status": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "requestCount": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 6
+    },
+    "userAgent": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "bodyBase64": {
+      "type": "string"
+    },
+    "bytes": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 2097152
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "complete": {
+      "type": "boolean"
+    },
+    "truncated": {
+      "type": "boolean"
+    },
+    "encoding": {
+      "const": "utf-8"
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "synthetic",
+    "capturedAt",
+    "tool",
+    "origin",
+    "requestedURL",
+    "redirects",
+    "finalURL",
+    "status",
+    "requestCount",
+    "userAgent",
+    "headers",
+    "bodyBase64",
+    "bytes",
+    "sha256",
+    "complete",
+    "truncated",
+    "encoding",
+    "diagnostics"
+  ],
+  "additionalProperties": false
+}

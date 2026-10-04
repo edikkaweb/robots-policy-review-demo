@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "origin": "https://example.com",
+  "cases": [
+    {
+      "id": "public",
+      "profile": "GPTBot",
+      "dimension": "crawl",
+      "url": "/documents/public/guide.pdf",
+      "expected": "allow",
+      "reason": "Autoriser le sous-répertoire public."
+    },
+    {
+      "id": "private",
+      "profile": "GPTBot",
+      "dimension": "crawl",
+      "url": "/documents/private.pdf",
+      "expected": "disallow",
+      "reason": "Maintenir l’exclusion du reste."
+    }
+  ]
+}

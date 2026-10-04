@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Edikka robots review expectations v1",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "origin": {
+      "type": "string",
+      "pattern": "^https?://"
+    },
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "profile": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dimension": {
+            "enum": [
+              "crawl",
+              "usage"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "expected": {
+            "enum": [
+              "allow",
+              "disallow"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "genericToken": {
+            "type": "string",
+            "pattern": "^[a-zA-Z_-]+$"
+          }
+        },
+        "required": [
+          "id",
+          "profile",
+          "dimension",
+          "url",
+          "expected",
+          "reason"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1,
+      "maxItems": 5000
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "origin",
+    "cases"
+  ],
+  "additionalProperties": false
+}

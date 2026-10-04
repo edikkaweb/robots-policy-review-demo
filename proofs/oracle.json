@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "engine": "edikka-rep/1.0.0",
+  "reference": "22b355ff855419e6a3ff8ff09c0ad7fdb17116f9",
+  "runAt": "2026-10-04T07:17:01.675Z",
+  "environment": {
+    "node": "v22.12.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M4 Max"
+  },
+  "seed": 20261004,
+  "budget": 1000,
+  "fixed": 16,
+  "total": 1016,
+  "agreement": 1016,
+  "divergences": [],
+  "sourceHashes": [
+    {
+      "file": "robots.cc",
+      "sha256": "d05a7fa74c0e8b9fc440d15f4c3ae9a80873c0d950e569de2926303fd75ed473"
+    },
+    {
+      "file": "robots.h",
+      "sha256": "912f3a5c6821f8a9a97269f9598b7f29ac1edf1ee20e173f1dd2d9ca48fb0bd5"
+    }
+  ],
+  "exclusions": [
+    "Préparation WHATWG / normalisation d’URL testée séparément : chemins déjà préparés dans ce corpus.",
+    "Résolution des profils, usages opérateurs et HTTP hors responsabilité du binaire brut.",
+    "Fichiers >2 Mio, lignes >16 663 octets, NUL et UTF-8 invalide refusés explicitement par la V1, non tronqués comme la référence."
+  ],
+  "scope": "Parsing et matching pour les triplets admissibles listés ; aucun certificat ni équivalence universelle.",
+  "reproduce": "npm run build && cmake -S oracle -B .cache/oracle && cmake --build .cache/oracle -j 4 && npm run test:oracle"
+}

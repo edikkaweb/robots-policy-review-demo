@@ -1,0 +1,57 @@
+name: Verify and publish robots review
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: robots-review-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build && npm run check && npm test
+      - name: Compile pinned native Google oracle
+        run: cmake -S oracle -B .cache/oracle -DCMAKE_BUILD_TYPE=Release && cmake --build .cache/oracle -j 2
+      - run: npm run test:oracle
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium firefox
+      - name: Browser checks under repository subpath
+        run: |
+          npm run preview > /tmp/robots-preview.log 2>&1 &
+          for i in $(seq 1 30); do curl --fail --silent http://127.0.0.1:4187/robots-policy-review-demo/ > /dev/null && break || sleep 1; done
+          npm run test:browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: synthetic-validation
+          path: |
+            proofs/
+            test-results/
+      - uses: actions/upload-pages-artifact@v4
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        with:
+          path: dist
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: verify
+    permissions:
+      pages: write
+      id-token: write
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

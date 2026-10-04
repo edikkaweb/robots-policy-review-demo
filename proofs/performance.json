@@ -1,0 +1,13 @@
+{
+  "runAt": "2026-10-04T07:17:01.407Z",
+  "environment": {
+    "node": "v22.12.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M4 Max"
+  },
+  "cases": 5000,
+  "rules": 81,
+  "elapsedMs": 131.29037499999998,
+  "scope": "Single synthetic run; not a statistical or universal performance guarantee."
+}

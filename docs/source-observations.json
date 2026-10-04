@@ -1,0 +1,80 @@
+[
+  {
+    "id": "rfc9309",
+    "url": "https://www.rfc-editor.org/rfc/rfc9309.html",
+    "finalURL": "https://www.rfc-editor.org/rfc/rfc9309.html",
+    "observedAt": "2026-10-04T06:38:33+00:00",
+    "sha256": "bbaa280636d3e38f0a1a130a5ce40e9753db1ed18c860945b0bf795ff8dc1a87",
+    "bytes": 82367
+  },
+  {
+    "id": "rfc3986",
+    "url": "https://www.rfc-editor.org/rfc/rfc3986.html",
+    "finalURL": "https://www.rfc-editor.org/rfc/rfc3986.html",
+    "observedAt": "2026-10-04T06:38:33+00:00",
+    "sha256": "28869fb6d1a48e86b4faaf03f9f1b1391ecd191cc619a51931a04cfaf328caac",
+    "bytes": 171264
+  },
+  {
+    "id": "google-spec",
+    "url": "https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec",
+    "finalURL": "https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec",
+    "observedAt": "2026-10-04T06:38:34+00:00",
+    "sha256": "06d0534f5e3f4220d2c6c62de8024028f9d64626f2f7f680a80c506346f05f2a",
+    "bytes": 99409
+  },
+  {
+    "id": "google-catalog",
+    "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers",
+    "finalURL": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers",
+    "observedAt": "2026-10-04T06:38:34+00:00",
+    "sha256": "1560b9ae8c873464fe4b4f066ab85268a59a07de25893760b6ed5f4b7eb8f52c",
+    "bytes": 88969
+  },
+  {
+    "id": "openai",
+    "url": "https://developers.openai.com/api/docs/bots",
+    "finalURL": "https://developers.openai.com/api/docs/bots",
+    "observedAt": "2026-10-04T06:38:35+00:00",
+    "sha256": "84243fb60c8038001445b0ddc4247b458ac349eb819c5480e410bee6b07570f7",
+    "bytes": 347575
+  },
+  {
+    "id": "apple",
+    "url": "https://support.apple.com/en-us/119829",
+    "finalURL": "https://support.apple.com/en-us/119829",
+    "observedAt": "2026-10-04T06:38:35+00:00",
+    "sha256": "5b6af595613c11ec0028df5d8fb46623395af7b414e997720b28c27b20eea579",
+    "bytes": 181666
+  },
+  {
+    "id": "anthropic",
+    "url": "https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler",
+    "observedAt": "2026-10-04T06:38:35+00:00",
+    "archiveError": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "perplexity",
+    "url": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+    "finalURL": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+    "observedAt": "2026-10-04T06:38:35+00:00",
+    "sha256": "527b10a1a03b19f90e39c8ba0e2d015f805b5f6c365a5dfd125aacdb9698a86f",
+    "bytes": 479518
+  },
+  {
+    "id": "edikka",
+    "url": "https://www.edikka.com/insights/seo/bloquer-robots-ia",
+    "finalURL": "https://www.edikka.com/insights/seo/bloquer-robots-ia",
+    "observedAt": "2026-10-04T06:38:35+00:00",
+    "sha256": "ba19784c1d5090f6bf9c95cd16b910966e8df02a61e9631237d769c09f63b9ff",
+    "bytes": 195559
+  },
+  {
+    "id": "github-pages",
+    "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages",
+    "finalURL": "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages",
+    "observedAt": "2026-10-04T06:38:36+00:00",
+    "sha256": "e37290c1bcea66a3d97a3f6b631aa162b074803a1ca0997b766103916880abcc",
+    "bytes": 142233
+  }
+]

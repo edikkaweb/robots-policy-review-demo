@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "origin": "https://example.com",
+  "cases": [
+    {
+      "id": "home",
+      "profile": "Googlebot",
+      "dimension": "crawl",
+      "url": "/",
+      "expected": "allow",
+      "reason": "Page publique."
+    },
+    {
+      "id": "article",
+      "profile": "OAI-SearchBot",
+      "dimension": "crawl",
+      "url": "/article",
+      "expected": "allow",
+      "reason": "Article public."
+    }
+  ]
+}
